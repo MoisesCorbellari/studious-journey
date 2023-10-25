@@ -44,7 +44,7 @@ letra_correta = []
 letra_incorreta = []
 
 while tentativas > 0:
-    letra = input('Insira uma letra: ').upper()
+    letra = input('Insira uma letra: ').upper().strip()
 
     if len(letra) != 1 or not letra.isalpha():
         print('Insira somente uma letra.')
