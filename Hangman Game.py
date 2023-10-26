@@ -1,18 +1,5 @@
 from time import sleep
 from random import choice
-instrucoes = '''      Jogo da Forca!
-
-Instruções:
-1. Você deve escolher um tema para o jogo.
-2. Uma palavra relacionada ao tema será escolhida aleatoriamente.
-3. Você terá 6 tentativas para adivinhar a palavra.
-4. A cada rodada, insira uma letra do alfabeto para adivinhar a palavra.
-5. Você não pode inserir a mesma letra mais de uma vez.
-                    
-                    Divirta-se e boa sorte!
-'''
-print(instrucoes)
-sleep(6)
 
 usuario = input('Escolha seu nick: ').strip()
 print('.......... Bem-vindo ao Jogo da Forca, {}! ..........'.format(usuario))
