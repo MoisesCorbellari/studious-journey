@@ -43,7 +43,7 @@ escolha = int(input('Opção: '))
 
 if escolha == 1:
     tema = 'Fruta'
-    palavra = ['Banana', 'Abacaxi', 'Melão', 'Maça', 'Morango', 'Laranja']
+    palavra = ['Banana', 'Abacaxi', 'Melao', 'Maça', 'Morango', 'Laranja']
 elif escolha == 2:
     tema = 'Animal'
     palavra = ['Cachorro', 'Cavalo', 'Onça', 'Coelho', 'Orangotango', 'Elefante']
