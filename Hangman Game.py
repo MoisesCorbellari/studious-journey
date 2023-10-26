@@ -43,16 +43,16 @@ escolha = int(input('Opção: '))
 
 if escolha == 1:
     tema = 'Fruta'
-    palavra = ['Banana', 'Abacaxi', 'Melão', 'Maçã', 'Morango', 'Laranja']
+    palavra = ['Banana', 'Abacaxi', 'Melão', 'Maça', 'Morango', 'Laranja']
 elif escolha == 2:
     tema = 'Animal'
     palavra = ['Cachorro', 'Cavalo', 'Onça', 'Coelho', 'Orangotango', 'Elefante']
 elif escolha == 3:
     tema = 'Humano'
-    palavra = ['Cérebro', 'Perna', 'Braço', 'Esqueleto', 'Músculo', 'Boca']
+    palavra = ['Cerebro', 'Perna', 'Braço', 'Esqueleto', 'Musculo', 'Boca']
 elif escolha == 4:
     tema = 'Casa'
-    palavra = ['Telhado', 'Portão', 'Janela', 'Piso', 'Chuveiro', 'Vaso']
+    palavra = ['Telhado', 'Portao', 'Janela', 'Piso', 'Chuveiro', 'Vaso']
 else:
     print('Opção Inválida! Escolha uma das opções para o tema do jogo.')
 
