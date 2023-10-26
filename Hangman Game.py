@@ -1,10 +1,5 @@
 from time import sleep
 from random import choice
-
-def limpar_tela():
-    import os
-    os.system('cls' if os.name == 'nt' else 'clear')
-    
 instrucoes = '''      Jogo da Forca!
 
 Instruções:
@@ -17,8 +12,7 @@ Instruções:
                     Divirta-se e boa sorte!
 '''
 print(instrucoes)
-sleep(15)
-limpar_tela()
+sleep(6)
 
 usuario = input('Escolha seu nick: ').strip()
 print('.......... Bem-vindo ao Jogo da Forca, {}! ..........'.format(usuario))
