@@ -99,6 +99,7 @@ while tentativas > 0:
             letra_incorreta = []
             escolhida = choice(palavra).upper()
             tentativas = 6
+            limpar_tela()
         else:
             break
 
