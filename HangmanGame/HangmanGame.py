@@ -20,7 +20,7 @@ print(instrucoes)
 sleep(15)
 limpar_tela()
 
-usuario = input('Escolha seu nick: ').strip()
+usuario = input('Escolha seu nick: ').strip().title()
 print('.......... Bem-vindo ao Jogo da Forca, {}! ..........'.format(usuario))
 input('Pressione ENTER para jogar!')
 
