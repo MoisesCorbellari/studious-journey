@@ -66,11 +66,11 @@ while tentativas > 0:
     letra = input('Insira uma letra: ').upper().strip()
 
     if len(letra) != 1 or not letra.isalpha():
-        print('Insira somente uma letra.')
+        print('Insira somente uma letra')
         continue
 
     if letra in letra_correta or letra in letra_incorreta:
-        print('Você já tentou essa letra.')
+        print('Você já tentou essa letra')
         continue
 
     if letra in escolhida:
