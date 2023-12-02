@@ -43,16 +43,16 @@ escolha = int(input('Opção: '))
 
 if escolha == 1:
     tema = 'Fruta'
-    palavra = ['Banana', 'Abacaxi', 'Melao', 'Maça', 'Morango', 'Laranja']
+    palavra = ['Banana', 'Abacaxi', 'Melao', 'Maça', 'Morango', 'Laranja', 'Mamao', 'Abacate', 'Caju', 'Cacau', 'Melancia', 'Limao', 'Goiaba', 'Graviola', 'Uva']
 elif escolha == 2:
     tema = 'Animal'
-    palavra = ['Cachorro', 'Cavalo', 'Onça', 'Coelho', 'Orangotango', 'Elefante']
+    palavra = ['Cachorro', 'Cavalo', 'Onça', 'Coelho', 'Orangotango', 'Elefante', 'Abelha', 'Aranha', 'Borboleta', 'Baleia', 'Camelo', 'Castor', 'Camundongo', 'Capivara']
 elif escolha == 3:
     tema = 'Humano'
-    palavra = ['Cerebro', 'Perna', 'Braço', 'Esqueleto', 'Musculo', 'Boca']
+    palavra = ['Cerebro', 'Perna', 'Braço', 'Esqueleto', 'Musculo', 'Boca', 'Intestino', 'Medula', 'Pele', 'Bexiga', 'Coraçao', 'Rins', 'Pulmao', 'Coluna']
 elif escolha == 4:
     tema = 'Casa'
-    palavra = ['Telhado', 'Portao', 'Janela', 'Piso', 'Chuveiro', 'Vaso']
+    palavra = ['Telhado', 'Portao', 'Janela', 'Piso', 'Chuveiro', 'Vaso', 'Panela', 'Frigideira', 'Travesseiro', 'Toalha', 'Mesa', 'Copo', 'Guardanapo', 'Almofada']
 else:
     print('Opção Inválida! Escolha uma das opções para o tema do jogo.')
 
@@ -93,7 +93,7 @@ while tentativas > 0:
 
     if palavra_descoberta == escolhida:
         print('Parabéns! Você acertou a palavra:', escolhida)
-        jogar_novamente = input('Deseja jogar novamente? (S para Sim e N para Não): ').strip().upper()
+        jogar_novamente = input('Deseja jogar novamente? (S para Sim ou tecle "ENTER" para sair): ').strip().upper()
         if jogar_novamente == 'S':
             letra_correta = []
             letra_incorreta = []
