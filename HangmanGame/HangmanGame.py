@@ -43,16 +43,20 @@ escolha = int(input('Opção: '))
 
 if escolha == 1:
     tema = 'Fruta'
-    palavra = ['Banana', 'Abacaxi', 'Melao', 'Maça', 'Morango', 'Laranja', 'Mamao', 'Abacate', 'Caju', 'Cacau', 'Melancia', 'Limao', 'Goiaba', 'Graviola', 'Uva']
+    palavra = ['Banana', 'Abacaxi', 'Melao', 'Maça', 'Morango', 'Laranja', 'Mamao', 
+               'Abacate', 'Caju', 'Cacau', 'Melancia', 'Limao', 'Goiaba', 'Graviola', 'Uva']
 elif escolha == 2:
     tema = 'Animal'
-    palavra = ['Cachorro', 'Cavalo', 'Onça', 'Coelho', 'Orangotango', 'Elefante', 'Abelha', 'Aranha', 'Borboleta', 'Baleia', 'Camelo', 'Castor', 'Camundongo', 'Capivara']
+    palavra = ['Cachorro', 'Cavalo', 'Onça', 'Coelho', 'Orangotango', 'Elefante', 
+               'Abelha', 'Aranha', 'Borboleta', 'Baleia', 'Camelo', 'Castor', 'Camundongo', 'Capivara']
 elif escolha == 3:
     tema = 'Humano'
-    palavra = ['Cerebro', 'Perna', 'Braço', 'Esqueleto', 'Musculo', 'Boca', 'Intestino', 'Medula', 'Pele', 'Bexiga', 'Coraçao', 'Rins', 'Pulmao', 'Coluna']
+    palavra = ['Cerebro', 'Perna', 'Braço', 'Esqueleto', 'Musculo', 'Boca', 
+               'Intestino', 'Medula', 'Pele', 'Bexiga', 'Coraçao', 'Rins', 'Pulmao', 'Coluna']
 elif escolha == 4:
     tema = 'Casa'
-    palavra = ['Telhado', 'Portao', 'Janela', 'Piso', 'Chuveiro', 'Vaso', 'Panela', 'Frigideira', 'Travesseiro', 'Toalha', 'Mesa', 'Copo', 'Guardanapo', 'Almofada']
+    palavra = ['Telhado', 'Portao', 'Janela', 'Piso', 'Chuveiro', 'Vaso', 'Panela', 
+               'Frigideira', 'Travesseiro', 'Toalha', 'Mesa', 'Copo', 'Guardanapo', 'Almofada']
 else:
     print('Opção Inválida! Escolha uma das opções para o tema do jogo.')
 
