@@ -17,8 +17,8 @@ Instruções:
 print(instrucoes)
 sleep(15)
 limpar_tela()
-usuario = input('Escolha seu nick: ').strip().title()
-print('.......... Bem-vindo ao Jogo da Forca, {}! ..........'.format(usuario))
+user = input('Escolha seu nick: ').strip().title()
+print(f'.......... Bem-vindo ao Jogo da Forca, {user}! ..........')
 def contagem_regressiva(t):
     print('Iniciando em...')
     sleep(0.7)
